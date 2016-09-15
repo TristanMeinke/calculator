@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link href = "css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href = "css/styles.css" rel="stylesheet" type="text/css">
+    <script src = "js/jquery-3.1.0.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+    <script src = "js/scripts.js"></script>
+  </head>
+
+  <body>
+    <div class = "container">
+      <div class = "jumbotron">
+        <h1>Calculator</h1>
+      </div>
+
+      <div class = "row">
+
+        <!-- ***ADDITION*** -->
+        <form id="add">
+
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="add1">1st number:</label>
+              <input id="add1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="add2">2nd number:</label>
+              <input id="add2" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">
+              <span class = "glyphicon glyphicon-plus"></span>
+            </button>
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***SUBTRACTION*** -->
+
+        <form id = "subtract">
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="subtract1">1st number:</label>
+              <input id="subtract1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="subtract2">2nd number:</label>
+              <input id="subtract2" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">
+              <span class = "glyphicon glyphicon-minus"></span>
+            </button>
+
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***MULTIPLICATION*** -->
+
+        <form id = "multiply">
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="multiply1">1st number:</label>
+              <input id="multiply1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="multiply2">2nd number:</label>
+              <input id="multiply2" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">
+              <span class = "glyphicon glyphicon-remove"></span>
+            </button>
+
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***DIVISION*** -->
+
+        <form id = "divide">
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="divide1">1st number:</label>
+              <input id="divide1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="divide2">2nd number:</label>
+              <input id="divide2" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn"><strong>/<strong></button>
+
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***SQUARE!*** -->
+
+        <form id = "squared">
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="squared">1st number:</label>
+              <input id="squared" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn"><strong>x^2<strong></button>
+
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***POWER!*** -->
+
+        <form id = "power">
+          <div class = "col-md-2 text-center">
+            <div class="form-group">
+              <label for="power1">1st number:</label>
+              <input id="power1" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label for="power2">2nd number:</label>
+              <input id="power2" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn"><strong>x^y<strong></button>
+
+          </div> <!-- closes column -->
+        </form>
+
+        <!-- ***OUTPUT!*** -->
+
+        <div id = "output">
+            <div class = "col-md-4">
+            </div>
+        </div>
+
+      </div>
+
+    </div> <!-- closes row -->
+    </div>  <!-- closes container -->
+
+  </body>
+</html>

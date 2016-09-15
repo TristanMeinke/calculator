@@ -1,0 +1,16 @@
+#output {
+  font-size: 80pt;
+  text-align: center;
+}
+
+.btn {
+  background-color: #B894FC;
+}
+
+.jumbotron {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 18px;
+  border-radius: 26px;
+}
